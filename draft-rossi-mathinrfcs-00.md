@@ -1,5 +1,5 @@
 ---
-title: RFC Policy for HTML and CSS formats
+title: Mathematical notation in RFCs
 docname: draft-rossi-htmlpolicy-00
 venue:
   group: RSWG
