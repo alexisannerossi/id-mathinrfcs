@@ -45,7 +45,7 @@ informative:
 
 --- abstract
 
-This document sets policy and allows new technology for the representation of math in RFCXML and relevant publication formats to improve readability and accessibility. After implementation of this policy, mathematical notation in RFCXML and the HTML publication format will no longer be accepted in Unicode or SVGs.
+This document sets policy and allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. After implementation of this policy, mathematical notation in RFCXML and the HTML publication format will no longer be accepted in Unicode or SVGs.
 
 --- middle
 
