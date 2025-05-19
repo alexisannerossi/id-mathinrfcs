@@ -1,13 +1,13 @@
 ---
 title: Mathematical notation in RFCs
-docname: draft-rossi-htmlpolicy-00
+docname: draft-rossi-mathinrfcs-00
 venue:
   group: RSWG
   type: Editorial Stream Working Group
   mail: rswg@rfc-editor.org
   arch: https://mailarchive.ietf.org/arch/browse/rswg/
-  github: "alexisannerossi/id-svgsinrfcs"
-  latest: "https://github.com/alexisannerossi/id-htmlpolicy/blob/main/id-htmlpolicy.md"
+  github: "alexisannerossi/id-mathinrfcs"
+  latest: "https://github.com/alexisannerossi/id-mathinrfcs/edit/main/draft-rossi-mathinrfcs-00.md"
 stand_alone: true
 v: 3
 ipr: trust200902
