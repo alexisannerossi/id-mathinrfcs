@@ -45,7 +45,7 @@ informative:
 
 --- abstract
 
-This document defines policy and allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. After implementation of this policy, mathematical notation in RFCXML and the HTML publication format will no longer be accepted in Unicode or SVGs.
+This document defines policy and allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. After implementation of this policy, mathematical notation in RFCXML and the HTML publication format will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs).
 
 --- middle
 
@@ -53,7 +53,7 @@ This document defines policy and allows new technology for the representation of
 
 This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. This document also defines policy requirements for the inclusion of mathematical content. 
 
-Mathematical notation in RFCs will no longer be accepted in Unicode or SVGs for RFCXML or the HTML publication format. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in unicode or SVGs in the HTML publication format because these are not adequately accessible to all readers.
+Mathematical notation in RFCs will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs) for RFCXML or the HTML publication format. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in unicode or SVGs in the HTML publication format because these are not adequately accessible to all readers.
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
