@@ -37,6 +37,7 @@ normative:
 
 
 informative:
+  RFC9720:
   WAI:
     author:
       org: W3C
@@ -51,16 +52,16 @@ This document defines policy and allows new technology for the representation of
 
 # Introduction
 
-This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. This document also defines policy requirements for the inclusion of mathematical content. 
+This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content. 
 
-Mathematical notation in RFCs will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs) for RFCXML or the HTML publication format. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in unicode or SVGs in the HTML publication format because these are not adequately accessible to all readers.
+Mathematical notation in RFCs will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs) for RFCXML or the HTML publication format. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in unicode or SVGs in the HTML publication format as these are not adequately accessible to all readers.
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
 # Policy Requirements
 
-* Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best  represent math in the Text publication format.
-* Mathematical notation should support both “inline” and “block” form.  That is, notation that is used as part of text (like this x) and equations, which might be referenced in the same way that a figure is.  Block-level formulae need to be referenceable in the same way that figures or tables are; these might either use an equation reference format or act as figures (this is to be determined and resolved during the implementation process).
+* Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best represent math in the Text publication format.
+* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is.  Block-level formulae need to be referenceable in the same way that figures or tables are; these might either use an equation reference format or act as figures (this is to be determined and resolved during the implementation process).
 * It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
 * Major desktop and mobile browsers must render the mathematical notation correctly in the HTML publication format.
 * Native support for the solution must exist in common desktop and mobile browsers for the HTML publication format.
