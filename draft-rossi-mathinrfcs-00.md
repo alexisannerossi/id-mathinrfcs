@@ -61,10 +61,9 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 # Policy Requirements
 
 * Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best represent math in the Text publication format.
-* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is.  Block-level formulae need to be referenceable in the same way that figures or tables are; these might either use an equation reference format or act as figures (this is to be determined and resolved during the implementation process).
+* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is. 
 * It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
-* Major desktop and mobile browsers must render the mathematical notation correctly in the HTML publication format.
-* Native support for the solution must exist in common desktop and mobile browsers for the HTML publication format.
+* Major desktop and mobile browsers must be capable of natively rendering the mathematical notation correctly in the HTML publication format.
 * The chosen implementation should allow representation of both the meaning and the formatting of the mathematical content.
 * Accessibility should be supported for readers of the HTML publication format who rely on various devices, software, and visual presentations (e.g. braille readers, screen readers, enlarging, and text formatting). The RPC will refer to the W3C Accessibility Guidelines {{WAI}} when making decisions regarding accessibility.
 
@@ -77,7 +76,7 @@ The RPC is expected to solicit community input before making decisions and to pu
 
 Documentation produced by the RPC should describe what technical and editorial constraints apply to the HTML publication format and CSS files.
 
-Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed.
+Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed. These deicions should also consider the authoring process as a significant factor in implementation.
 
 The RPC should periodically review and revise their practices.
 
