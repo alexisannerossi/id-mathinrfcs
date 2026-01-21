@@ -76,7 +76,7 @@ The RPC is expected to solicit community input before making decisions and to pu
 
 Documentation produced by the RPC should describe what technical and editorial constraints apply to the HTML publication format and CSS files.
 
-Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed. These deicions should also consider the authoring process as a significant factor in implementation.
+Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed. These decisions should also consider the authoring process as a significant factor in implementation.
 
 The RPC should periodically review and revise their practices.
 
