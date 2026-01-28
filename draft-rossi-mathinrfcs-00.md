@@ -52,17 +52,18 @@ This document defines policy and allows new technology for the representation of
 
 # Introduction
 
-This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content. 
+This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content.
 
-Mathematical notation in RFCs will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs) for RFCXML or the HTML publication format. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in unicode or SVGs in the HTML publication format as these are not adequately accessible to all readers.
+Mathematical notation in RFCs replaces existing practices for conveying mathematical content.  Inline ASCII and Unicode text or ASCII ART and Scalable Vector Graphics (SVGs) can be replaced by native support. In HTML, native support can then be used in place of such crude alternatives; see {{guidance}} for more on this. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in Unicode or SVG figures in the HTML publication format as these are not adequately accessible to all readers.
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
 # Policy Requirements
 
 * Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best represent math in the Text publication format.
-* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is. 
+* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is.
 * It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
+* In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.
 * Major desktop and mobile browsers must be capable of natively rendering the mathematical notation correctly in the HTML publication format.
 * The chosen implementation should allow representation of both the meaning and the formatting of the mathematical content.
 * Accessibility should be supported for readers of the HTML publication format who rely on various devices, software, and visual presentations (e.g. braille readers, screen readers, enlarging, and text formatting). The RPC will refer to the W3C Accessibility Guidelines {{WAI}} when making decisions regarding accessibility.
@@ -70,11 +71,13 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons in order to ensure that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
 
 
-# Implementation Guidance
+# Implementation Guidance {#guidance}
 
 The RPC is expected to solicit community input before making decisions and to publicly explain their reasoning.
 
 Documentation produced by the RPC should describe what technical and editorial constraints apply to the HTML publication format and CSS files.
+That guidance should include updates to style guides to provide advice on how to decide when math forms are to be preferred over ASCII or Unicode workarounds that have been historically used in the series.
+It is expected that native math support would be preferred in most cases, except for the simplest cases or to specifically support text renderings.
 
 Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed. These decisions should also consider the authoring process as a significant factor in implementation.
 
