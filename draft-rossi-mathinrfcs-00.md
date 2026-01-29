@@ -70,6 +70,11 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons in order to ensure that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
 
+Any requirement to use a native math format over preexisting alternatives applies only when the math format is considered sufficiently mature.
+There will be a period where the solution is being developed.
+During this time, the solution might be incomplete or it might be impractical for existing documents to adapt.
+The RPC is expected to exercise judgment on a case-by-case basis.
+
 
 # Implementation Guidance {#guidance}
 
