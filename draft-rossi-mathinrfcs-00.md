@@ -43,6 +43,19 @@ informative:
       org: W3C
     title: W3C Accessibility Standards Overview
     target: https://www.w3.org/WAI/standards-guidelines/
+  MATHML:
+    title: "Mathematical Markup Language (MathML) Version 3.0 2nd Edition"
+    target: https://www.w3.org/TR/2014/REC-MathML3-20140410/
+    author:
+      - name: David Carlisle
+      - name: Patrick Ion
+      - name: Robert Miner
+    date: 2014-04-10
+    seriesinfo:
+      W3C: Recommendation
+  LaTeX:
+    title: "LaTeX - A document preparation system"
+    target: "https://www.latex-project.org/"
 
 --- abstract
 
@@ -85,6 +98,9 @@ That guidance should include updates to style guides to provide advice on how to
 It is expected that native math support would be preferred in most cases, except for the simplest cases or to specifically support text renderings.
 
 Where possible, implementation decisions should focus on specifying what is disallowed, rather than attempting to specify exactly what is allowed. These decisions should also consider the authoring process as a significant factor in implementation.
+
+At the time of writing, the general view was that MathML {{MATHML}} best fit the requirements for inclusion in publication formats and RFC XML.  For authoring, the use of LaTeX {{LaTeX}} math syntax was considered most suitable.
+The RPC is encouraged to consider these options seriously, unless better options become available in future.
 
 The RPC should periodically review and revise their practices.
 
