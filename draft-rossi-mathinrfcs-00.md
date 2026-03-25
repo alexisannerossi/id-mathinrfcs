@@ -65,7 +65,7 @@ This document defines policy and allows new technology for the representation of
 
 # Introduction
 
-This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content.
+This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content. The primary motivations for this new policy are to improve accessibility for non-sighted users and to ensure consistent processing and rendering across the RFC series.
 
 Mathematical notation in RFCs replaces existing practices for conveying mathematical content.  Inline ASCII and Unicode text or ASCII art and Scalable Vector Graphics (SVGs) can be replaced by native support for content that only contains math. In HTML, native support can then be used in place of such crude alternatives; see {{guidance}} for more on this. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in Unicode or SVG figures in the HTML publication format as these are not adequately accessible to all readers.
 
