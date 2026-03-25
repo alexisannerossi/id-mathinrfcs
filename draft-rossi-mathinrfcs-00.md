@@ -1,6 +1,6 @@
 ---
 title: Mathematical notation in RFCs
-docname: draft-rossi-mathinrfcs-00
+docname: draft-rossi-mathinrfcs-02
 venue:
   group: RSWG
   type: Editorial Stream Working Group
