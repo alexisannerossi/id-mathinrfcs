@@ -1,13 +1,13 @@
 ---
 title: Mathematical notation in RFCs
-docname: draft-rossi-mathinrfcs-02
+docname: draft-rswg-mathinrfcs-00
 venue:
   group: RSWG
   type: Editorial Stream Working Group
   mail: rswg@rfc-editor.org
   arch: https://mailarchive.ietf.org/arch/browse/rswg/
   github: "alexisannerossi/id-mathinrfcs"
-  latest: "https://github.com/alexisannerossi/id-mathinrfcs/edit/main/draft-rossi-mathinrfcs-00.md"
+  latest: "https://github.com/alexisannerossi/id-mathinrfcs/"
 stand_alone: true
 v: 3
 ipr: trust200902
@@ -59,7 +59,7 @@ informative:
 
 --- abstract
 
-This document defines policy and allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. After implementation of this policy, mathematical notation in RFCXML and the HTML publication format will no longer be accepted in Unicode or Scalable Vector Graphics (SVGs).
+This document defines policy and allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats. After implementation of this policy, the chosen mathematical notation should be used in RFCXML and the HTML publication format.
 
 --- middle
 
@@ -67,7 +67,7 @@ This document defines policy and allows new technology for the representation of
 
 This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content. The primary motivations for this new policy are to improve accessibility for non-sighted users and to ensure consistent processing and rendering across the RFC series.
 
-Mathematical notation in RFCs replaces existing practices for conveying mathematical content.  Inline ASCII and Unicode text or ASCII art and Scalable Vector Graphics (SVGs) can be replaced by native support for content that only contains math. In HTML, native support can then be used in place of such crude alternatives; see {{guidance}} for more on this. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in Unicode or SVG figures in the HTML publication format as these are not adequately accessible to all readers.
+Mathematical notation in RFCs replaces existing practices for conveying mathematical content.  Inline ASCII and Unicode text or ASCII art and Scalable Vector Graphics (SVGs) can be replaced by native support for content that only contains math. In HTML, native support can then be used in place of such crude alternatives; see {{guidance}} for more on this. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in Unicode or SVG figures in the HTML publication format in most cases.
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
