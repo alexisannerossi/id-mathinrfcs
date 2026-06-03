@@ -87,7 +87,7 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 1. Accessibility should be supported for readers of the HTML publication format who rely on various devices, software, and visual presentations (e.g. braille readers, screen readers, enlarging, and text formatting). The RPC will refer to the W3C Accessibility Guidelines {{WAI}} when making decisions regarding accessibility.
 
-The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons in order to ensure that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
+The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons. This ensures that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
 
 Any requirement to use a native math format over preexisting alternatives applies only when the math format is considered sufficiently mature.
 There will be a period where the solution is being developed.
