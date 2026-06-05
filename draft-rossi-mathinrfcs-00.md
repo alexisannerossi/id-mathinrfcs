@@ -71,18 +71,23 @@ Mathematical notation in RFCs replaces existing practices for conveying mathemat
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
-# Policy Requirements
+# Policy
 
-* Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best represent math in the Text publication format.
-* Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is.
-* It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
-* In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.  Incidental use of math in figures can still use textual or SVG alternatives, provided that any math content is only illustrative.
-* Major desktop and mobile browsers must be capable of natively rendering the mathematical notation correctly in the HTML publication format.
-* The chosen implementation should allow representation of both the meaning and the formatting of the mathematical content.
-* The underlying markup of the RFCXML must embed and preserve the original mathematical source code. Users should be able to readily extract this source representation without having to reverse-engineer it from the final visual renderings. 
-* Accessibility should be supported for readers of the HTML publication format who rely on various devices, software, and visual presentations (e.g. braille readers, screen readers, enlarging, and text formatting). The RPC will refer to the W3C Accessibility Guidelines {{WAI}} when making decisions regarding accessibility.
+1. Mathematical notation should appear correctly in RFCXML, HTML and PDF publication formats, as well as any future publication formats that can support it. The RPC will determine how to best represent math in the Text publication format.
 
-The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons in order to ensure that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
+1. Mathematical notation should support both “inline” and “block” form.  "Inline" refers to notation that is used as part of text (like this x) and "block" form refers to equations that might be referenced in the same way that a figure is.
+
+1. It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
+
+1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.  Incidental use of math in figures can still use textual or SVG alternatives, provided that any math content is only illustrative.
+
+1. It must be possible to render the mathematical notation in the HTML publication format correctly using widely used desktop and mobile browsers.
+
+1. The underlying markup of the RFCXML must embed and preserve the original mathematical source code. Users should be able to readily extract this source representation without having to reverse-engineer it from the final visual renderings.
+
+1. Accessibility should be supported for readers of the HTML publication format who rely on various devices, software, and visual presentations (e.g. braille readers, screen readers, enlarging, and text formatting). The RPC will refer to the W3C Accessibility Guidelines {{WAI}} when making decisions regarding accessibility.
+
+The RPC is authorized to make decisions about the representation of mathematical notation for both technical and editorial reasons. This ensures that published RFCs meet the above policy and to provide consistency across the RFC series. The RPC must document their decisions in a public place, and all changes to tooling or implementation decisions must be widely communicated to the RFC author community using mailing lists or other means.
 
 Any requirement to use a native math format over preexisting alternatives applies only when the math format is considered sufficiently mature.
 There will be a period where the solution is being developed.
