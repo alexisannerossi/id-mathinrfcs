@@ -79,7 +79,11 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 1. It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
 
-1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.  Incidental use of math in figures can still use textual or SVG alternatives, provided that any math content is only illustrative.
+1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.
+
+1. The RPC is expected to exercise discretion about the inclusion of how math is presented in "inline" form or figures. In those contexts, especially for smaller or less complex math, simple text versions can be superior to full equations.
+
+1. Including math in figures might be challenging due to technical constraints on the composition of SVG and the chosen math form. Math in figures can be presented using pure text or SVG alternatives when that math content is only illustrative. More substantive math can be included in these less accessible forms in figures when it is also presented in a more accessible form elsewhere in the document on the condition that those alternative presentations are clearly identified.
 
 1. It must be possible to render the mathematical notation in the HTML publication format correctly using widely used desktop and mobile browsers.
 
