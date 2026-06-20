@@ -67,7 +67,7 @@ This document defines policy and allows new technology for the representation of
 
 This document allows new technology for the representation of mathematical notation in RFCXML and relevant publication formats defined in {{RFC9720}}. This document also defines policy requirements for the inclusion of mathematical content. The primary motivations for this new policy are to improve accessibility for non-sighted users and to ensure consistent processing and rendering across the RFC series.
 
-Mathematical notation in RFCs replaces existing practices for conveying mathematical content.  Inline ASCII and Unicode text or ASCII art and Scalable Vector Graphics (SVGs) can be replaced by native support for content that only contains math. In HTML, native support can then be used in place of such crude alternatives; see {{guidance}} for more on this. Other publication formats may use the best solution available for displaying math. This document specifically removes support for displaying math in Unicode or SVG figures in the HTML publication format in most cases.
+Mathematical notation in RFCs provides an option to replace existing practices for conveying mathematical content.  Though some simpler uses of math can be represented using inline text, native support for mathematical notation can provide a superior replacement for text, Scalable Vector Graphics (SVG), or ASCII art. In HTML, native support for math can then be used in place of these alternatives. Other publication formats may use the best solution available for displaying math.
 
 The RFC Publication Center (RPC) is responsible for tooling and implementation decisions regarding this policy. We expect the adoption of this policy to require changes and adaptation during implementation in early documents using this technology.
 
@@ -79,7 +79,11 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 1. It must be possible to reference “block” form equations from the text in a way that clearly distinguishes them from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”.
 
-1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.  Incidental use of math in figures can still use textual or SVG alternatives, provided that any math content is only illustrative.
+1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.
+
+1. The RPC is expected to exercise discretion about the inclusion of how math is presented in "inline" form or figures. In those contexts, especially for smaller or less complex math, simple text versions can be superior to full equations.
+
+1. Including math in figures might be challenging due to technical constraints on the composition of SVG and the chosen math form. Math in figures can be presented using pure text or SVG alternatives when that math content is only illustrative. More substantive math can be included in these less accessible forms in figures when it is also presented in a more accessible form elsewhere in the document on the condition that those alternative presentations are clearly identified.
 
 1. It must be possible to render the mathematical notation in the HTML publication format correctly using widely used desktop and mobile browsers.
 
