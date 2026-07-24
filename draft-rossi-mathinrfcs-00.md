@@ -81,7 +81,7 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 1. In the "block" form, equations must use the chosen math format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.
 
-1. The RPC is expected to exercise discretion about the inclusion of how math is presented in "inline" form or figures. In those contexts, especially for smaller or less complex math, simple text versions can be superior to full equations.
+1. The RPC is expected to exercise discretion regarding the inclusion of simple "inline" math in the body of the document or in figures. Simple text may be used in some cases when the author prefers it. The RPC may adjust their requirements as they gain experience.
 
 1. Including math in figures might be challenging due to technical constraints on the composition of SVG and the chosen math form. Math in figures can be presented using pure text or SVG alternatives when that math content is only illustrative. More substantive math can be included in these less accessible forms in figures when it is also presented in a more accessible form elsewhere in the document on the condition that those alternative presentations are clearly identified.
 
