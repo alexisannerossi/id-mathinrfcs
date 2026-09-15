@@ -1,6 +1,6 @@
 ---
 title: Mathematical notation in RFCs
-docname: draft-rswg-mathinrfcs-00
+docname: draft-editorial-rswg-mathinrfcs-04
 venue:
   group: RSWG
   type: Editorial Stream Working Group
@@ -77,7 +77,7 @@ The RFC Publication Center (RPC) is responsible for tooling and implementation d
 
 1. The mathematical notation format should support both “inline” and “block” form.  "Inline" refers to math that is used as part of text (like this x) and "block" form refers to content that might be referenced in the same way that a figure is.
 
-1. It must be possible to reference “block” form mathmatical content from the text in a way that clearly distinguishes equations from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as “Fig. n” while equations are referenced as “Eq. n”. Authors may determine whether their "block" form content is a figure or an equation.
+1. It must be possible to reference “block” form mathmatical content from the text in a way that clearly distinguishes equations from references to figures (or other elements that can be referenced, such as citations). In academic writing, figures are usually referenced as "Figure n" or “Fig. n” while equations are referenced as "Equation n" or “Eq. n”. Authors may determine whether their "block" form content is a figure or an equation.
 
 1. In the "block" form, content must use the chosen mathmatical notation format.  ASCII art or SVG renderings of math must not be used in any format except for the Text publication format, as noted.
 
